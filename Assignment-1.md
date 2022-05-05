@@ -9,15 +9,22 @@ Matrix X = [ 2 4
             3]         
 
 
-a) y^T z = 2 
+a) y^T z = 11 
 
-b) Xy = [5
-         6]
-c) X^2 = [4  8
-          2  6]
-d) X^-1 = [0.5  -0.5
-           0.5  0.5]
-e) rank(X) = 2
+b) Xy = [14
+         10]
+c) X^2 = [8  20
+          5  13]
+d) X^-1 : To find the inverse of a matrix, we augment the matrix with the identity matrix and solve the system of equations.
+
+This is what we find:
+
+[1.5 -2
+ -0.5 1]
+
+
+
+e) rank(X) = The rank of X is 2.
 
 ---
 
