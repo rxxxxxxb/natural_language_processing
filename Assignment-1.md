@@ -1,26 +1,26 @@
 ## Task 1 : Liner Algebra
+ 
+ $X = \begin{bmatrix}  2 & 4 \\ 1 & 3  \end{bmatrix}$
 
-Matrix X = [ 2 4
-             1 3]
-       y = [1         
-            3]       
+ $y = \begin{bmatrix}  1 \\ 3  \end{bmatrix}$
 
-       z = [2
-            3]         
+$z = \begin{bmatrix}  2 \\ 3  \end{bmatrix}$
 
+  
+  
+a) $y^T z$ = $11$
 
-a) y^T z = 11 
+b) $Xy = \begin{bmatrix}  14 \\ 10  \end{bmatrix}$
+  
+c) $X^2 = \begin{bmatrix}  8 & 20 \\ 5 & 13  \end{bmatrix}$
 
-b) Xy = [14
-         10]
-c) X^2 = [8  20
-          5  13]
-d) X^-1 : To find the inverse of a matrix, we augment the matrix with the identity matrix and solve the system of equations.
+d) $X^-1$ : To find the inverse of a matrix, we augment the matrix with the identity matrix and solve the system of equations.
 
-This is what we find:
+And this is what we find:
 
-[1.5 -2
- -0.5 1]
+ $X^-1 = \begin{bmatrix}  1.5 & -2 \\ -0.5 & 1  \end{bmatrix}$
+
+e) $Rank(X)$ = The rank of $X$ is 2.
 
 
 
@@ -30,10 +30,19 @@ e) rank(X) = The rank of X is 2.
 
 ## Task 2 : Derivatives
 
-Derivative of y with respect to, if
+  
+Derivative of $y$ with respect to $x$ , if
+  
 
-a) y = x^3 + x - 5 
-b) y = (5x^3 - 2x) (2x)
+a) $y = x^3 + x - 5 = 3x^2 + 1$
+
+b) $y = (5x^3 - 2x) (2x) = 40*x^3-8x$ 
+
+c) $\dfrac{2x^2+3}{8x+1} = \dfrac{4\left(4x^2+x-6\right)}{\left(8x+1\right)^2}$  
+  
+d) $(3*x-2)^8$ = $24*(3x-2)^7$
+
+e) $(logx^2 + x) = ln(x)^2+x = \dfrac{2\ln\left(x\right)}{x}+1$
 
 
 ## Task 3 : Cross Entropy Gradient
